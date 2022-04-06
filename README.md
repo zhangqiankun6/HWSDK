@@ -5,4 +5,4 @@ ForRelease
 
 ## 下载地址
 
-SDK 下载地址：[v1.0](https://github.com/artwl/hwsdk_ios/releases)
+SDK 下载地址：[v1.0](https://github.com/zhangqiankun6/TestRelease/releases)

@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "HwAdsFramework"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "A short description of HwAdsFramework."
 
   # This description is used to generate tags and improve search results.
@@ -101,9 +101,24 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "AppLovinSDK"
-  # spec.dependency "AppLovinMediationAdColonyAdapter"
-  # spec.dependency "AppLovinMediationChartboostAdapter"
-  # spec.dependency "AppLovinMediationFyberAdapter"
+  spec.dependency "AppLovinSDK"
+  spec.dependency "Adjust"
+  spec.dependency "AppLovinMediationAdColonyAdapter"
+  spec.dependency "AppLovinMediationChartboostAdapter"
+  spec.dependency "AppLovinMediationFyberAdapter"
+
+  spec.dependency "AppLovinMediationGoogleAdManagerAdapter"
+  spec.dependency "AppLovinMediationGoogleAdapter"
+  spec.dependency "AppLovinMediationInMobiAdapter"
+  spec.dependency "AppLovinMediationIronSourceAdapter"
+  spec.dependency "AppLovinMediationFacebookAdapter"
+  spec.dependency "AppLovinMediationMintegralAdapter"
+  spec.dependency "AppLovinMediationByteDanceAdapter"
+
+  spec.dependency "AppLovinMediationSmaatoAdapter"
+  spec.dependency "AppLovinMediationTapjoyAdapter"
+  spec.dependency "AppLovinMediationTencentGDTAdapter"
+  spec.dependency "AppLovinMediationUnityAdsAdapter"
+  spec.dependency "AppLovinMediationVungleAdapter"
 
 end

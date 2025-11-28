@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "HwAdsFramework"
-  spec.version      = "9.2.0"
+  spec.version      = "9.8.33"
   spec.summary      = "A short description of HwAdsFramework."
 
   # This description is used to generate tags and improve search results.
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-   spec.platform     = :ios, "10.0"
+   spec.platform     = :ios, "15.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -120,5 +120,10 @@ Pod::Spec.new do |spec|
   spec.dependency "AppLovinMediationTencentGDTAdapter"
   spec.dependency "AppLovinMediationUnityAdsAdapter"
   spec.dependency "AppLovinMediationVungleAdapter"
+  spec.dependency "Firebase/Core"
+  spec.dependency "Firebase/Analytics"
+  spec.dependency "Firebase/Crashlytics"
+
+
 
 end
